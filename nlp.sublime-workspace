@@ -7,6 +7,28 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "week1notes.md",
+			"settings":
+			{
+				"buffer_size": 2748,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import nltk # https://www.nltk.org/install.html\nimport numpy # https://www.scipy.org/install.html\nimport matplotlib.pyplot # https://matplotlib.org/downloads.html\nimport tweepy # https://github.com/tweepy/tweepy\nimport TwitterSearch # https://github.com/ckoepp/TwitterSearch\nimport unidecode # https://pypi.python.org/pypi/Unidecode\nimport langdetect # https://pypi.python.org/pypi/langdetect\nimport langid # https://github.com/saffsd/langid.py\nimport gensim # https://radimrehurek.com/gensim/install.html\n\nnltk.download()\nnltk.\n",
+			"file": "week1project/1_1.py",
+			"file_size": 523,
+			"file_write_time": 132158072195677685,
+			"settings":
+			{
+				"buffer_size": 529,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "import nltk # https://www.nltk.org/install.html"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -19,6 +41,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
 			[
 				"in",
 				"Package Control: Install Package"
@@ -48,10 +74,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/kyle/code/Learn-Natural-Language-Processing-Curriculum"
+		"/Users/kyle/code/Learn-Natural-Language-Processing-Curriculum",
+		"/Users/kyle/code/Learn-Natural-Language-Processing-Curriculum/week1project"
 	],
 	"file_history":
 	[
+		"/Users/kyle/code/Learn-Natural-Language-Processing-Curriculum/week1project/requirements.txt",
 		"/Users/kyle/code/stenolite_client/cloud_functions/functions/node_modules/firebase-functions/lib/apps.d.ts",
 		"/Users/kyle/code/stenolite_client/cloud_functions/functions/node_modules/firebase-admin/lib/index.d.ts",
 		"/Users/kyle/code/stenolite_client/cloud_functions/functions/src/index.ts"
@@ -89,8 +117,74 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "week1notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2745,
+								2745
+							]
+						],
+						"settings":
+						{
+							"actual_mode": true,
+							"av:mode:insert": true,
+							"av:mode:inserts": true,
+							"av_input": true,
+							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 907.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "week1project/1_1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								523,
+								523
+							]
+						],
+						"settings":
+						{
+							"actual_mode": true,
+							"auto_name": "import nltk # https://www.nltk.org/install.html",
+							"av:mode:insert": true,
+							"av:mode:inserts": true,
+							"av_input": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -100,7 +194,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
